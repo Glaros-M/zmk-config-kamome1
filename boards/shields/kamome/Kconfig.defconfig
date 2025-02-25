@@ -1,0 +1,6 @@
+if SHIELD_KAMOME
+
+config ZMK_KEYBOARD_NAME
+    default "Kamome"
+
+endif
