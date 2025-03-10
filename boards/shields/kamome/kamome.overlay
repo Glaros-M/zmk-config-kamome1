@@ -25,11 +25,11 @@
 
         // Строки (rows)
         row-gpios =
-            <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  // Row 4 (P0.15)
+            <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  // Row 4 (P0.15)
             <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  // Row 3 (P0.18)
             <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  // Row 2 (P0.19)
             <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  // Row 1 (P0.20)
-            <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  // Row 0 (P0.21)
+            <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  // Row 0 (P0.21)
 
         // Столбцы (columns)
         col-gpios =
